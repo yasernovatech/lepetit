@@ -2,13 +2,14 @@
   "name": "my-v0-project",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "lint": "eslint .",
-    "start": "next start",
-    "export": "next build",
-    "deploy": "next build && echo Build completed! Upload the 'out' folder to your hosting."
+    "start": "next start"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
