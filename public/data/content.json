@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "images": [
+      "/images/IMG_0410.webp",
+      "/images/IMG_0426.webp",
+      "/images/IMG_0422.webp"
+    ]
+  },
+  "contact": {
+    "phone": "+49 152 09726688",
+    "email": "info@lepetitisenburg.de",
+    "address": "Friedhofstrasse 23, 63263 Neu-Isenburg",
+    "instagram": "#",
+    "facebook": "#",
+    "twitter": "#"
+  },
+  "about": {
+    "timeline": [
+      {
+        "year_fa": "دی 1403",
+        "year_de": "Januar 2025",
+        "title_fa": "افتتاح فروشگاه",
+        "title_de": "Eröffnung des Geschäfts",
+        "desc_fa": "شروع رسمی فعالیت و ارائه محصولات به مشتریان",
+        "desc_de": "Offizieller Beginn und Bereitstellung von Produkten"
+      },
+      {
+        "year_fa": "بهمن 1403",
+        "year_de": "Februar 2025",
+        "title_fa": "تکمیل محصولات",
+        "title_de": "Produktvervollständigung",
+        "desc_fa": "افزودن مجموعه کامل لوازم نوزاد و کودک",
+        "desc_de": "Vollständige Baby- und Kinderkollektion"
+      }
+    ]
+  },
+  "home": {
+    "categories": {
+      "title_fa": "دستهبندی محصولات",
+      "title_de": "Shop Collections"
+    },
+    "popularProducts": {
+      "title_fa": "محصولات محبوب",
+      "title_de": "Beliebte Produkte",
+      "subtitle_fa": "محصولات با امتیاز بالای 4.5",
+      "subtitle_de": "Produkte mit einer Gesamtbewertung über 4.5"
+    },
+    "specialCollection": {
+      "title_fa": "کالکشن ویژه",
+      "title_de": "Spezielle Kollektion",
+      "subtitle_fa": "بهترین انتخاب برای فرشته کوچک شما",
+      "subtitle_de": "Die beste Wahl für Ihren kleinen Engel",
+      "description_fa": "محصولات ایمن و باکیفیت",
+      "description_de": "Sichere und hochwertige Produkte",
+      "button_fa": "مشاهده محصولات",
+      "button_de": "Produkte ansehen"
+    },
+    "gallery": {
+      "title": "LE PETIT COLLECTION",
+      "images": [
+        "/images/baby-onesie.jpg",
+        "/images/soft-baby-doll.jpg",
+        "/images/baby-accessories.jpg",
+        "/images/baby-bonnet.jpg",
+        "/images/baby-gear.jpg",
+        "/images/baby-socks.jpg",
+        "/images/baby-clothes.jpg"
+      ]
+    },
+    "contactSection": {
+      "title_fa": "تماس با ما",
+      "title_de": "Kontakt",
+      "storeName": "LE PETIT",
+      "subtitle_fa": "محصولات نوزاد و کودک",
+      "subtitle_de": "Baby & Kids Products",
+      "leftImage": "/images/cc.webp",
+      "centerImage": "/images/p.png",
+      "rightImage": "/images/bb.webp",
+      "website": "www.lepetit.de"
+    }
+  }
+}

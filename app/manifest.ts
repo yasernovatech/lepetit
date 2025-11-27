@@ -1,0 +1,27 @@
+import { MetadataRoute } from 'next'
+
+export const dynamic = 'force-static'
+
+export default function manifest(): MetadataRoute.Manifest {
+  return {
+    name: 'Le Petit Isenburg - Baby & Kinderkleidung',
+    short_name: 'Le Petit',
+    description: 'Hochwertige Babykleidung und Kindermode in Neu-Isenburg',
+    start_url: '/',
+    display: 'standalone',
+    background_color: '#F7F3EF',
+    theme_color: '#C4956C',
+    icons: [
+      {
+        src: '/images/hero.png',
+        sizes: '192x192',
+        type: 'image/png',
+      },
+      {
+        src: '/images/hero.png',
+        sizes: '512x512',
+        type: 'image/png',
+      },
+    ],
+  }
+}

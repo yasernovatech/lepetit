@@ -1,0 +1,17 @@
+{
+  "hero": {
+    "images": [
+      "/images/IMG_0410.webp",
+      "/images/IMG_0426.webp",
+      "/images/IMG_0422.webp"
+    ]
+  },
+  "contact": {
+    "phone": "+49 152 09726688",
+    "email": "info@lepetitisenburg.de",
+    "address": "Friedhofstrasse 23, 63263 Neu-Isenburg",
+    "instagram": "#",
+    "facebook": "#",
+    "twitter": "#"
+  }
+}

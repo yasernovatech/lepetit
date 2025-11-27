@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>تحلیل تصویر L.webp</title>
+    <style>
+        body { font-family: Arial; margin: 20px; direction: rtl; }
+        .analysis { background: #f5f5f5; padding: 15px; margin: 10px 0; border-radius: 5px; }
+        img { max-width: 100%; height: auto; border: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+    <h1>تحلیل تصویر L.webp</h1>
+    
+    <div class="analysis">
+        <h3>نمایش تصویر:</h3>
+        <img src="./public/images/L.webp" alt="Logo L" id="logoImage">
+    </div>
+
+    <div class="analysis" id="imageInfo">
+        <h3>اطلاعات فنی:</h3>
+        <div id="details"></div>
+    </div>
+
+    <script>
+        const img = document.getElementById('logoImage');
+        const details = document.getElementById('details');
+        
+        img.onload = function() {
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            canvas.width = img.naturalWidth;
+            canvas.height = img.naturalHeight;
+            ctx.drawImage(img, 0, 0);
+            
+            details.innerHTML = `
+                <p><strong>ابعاد:</strong> ${img.naturalWidth} × ${img.naturalHeight} پیکسل</p>
+                <p><strong>نسبت تصویر:</strong> ${(img.naturalWidth/img.naturalHeight).toFixed(2)}</p>
+                <p><strong>فرمت:</strong> WebP</p>
+                <p><strong>کیفیت نمایش:</strong> ${img.naturalWidth > 1000 ? 'بالا' : img.naturalWidth > 500 ? 'متوسط' : 'پایین'}</p>
+                <p><strong>مناسب برای:</strong> ${img.naturalWidth > 800 ? 'نمایش بزرگ و پس‌زمینه' : 'لوگو و آیکون'}</p>
+            `;
+        };
+        
+        img.onerror = function() {
+            details.innerHTML = '<p style="color: red;">خطا در بارگذاری تصویر</p>';
+        };
+    </script>
+</body>
+</html>
